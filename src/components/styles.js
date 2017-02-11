@@ -39,6 +39,38 @@ const styles = {
   buttonContainer: {
     flex: 1,
     alignSelf: 'stretch',
+  },
+  inputContainer: {
+    height: 40,
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center'
+  },
+  inputLabel: {
+    fontSize: 18,
+    paddingLeft: 20,
+    flex: 1
+  },
+  inputTextInput: {
+    color: '#000',
+    paddingRight: 5,
+    paddingLeft: 5,
+    fontSize: 18,
+    lineHeight: 23,
+    flex: 2
+  },
+  errorContainer: {
+    flex: 1
+  },
+  errorText: {
+    fontSize: 20,
+    alignSelf: 'center',
+    color: '#f00'
+  },
+  spinnerContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
   }
 };
 
